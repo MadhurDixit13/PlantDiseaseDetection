@@ -10,10 +10,11 @@ window = tk.Tk()
 window.title("Dr. Plant")
 
 window.geometry("500x510")
-window.configure(background ="lightgreen")
+window.configure(background="lightgreen")
 
 title = tk.Label(text="Click below to choose picture for testing disease....", background = "lightgreen", fg="Brown", font=("", 15))
 title.grid()
+
 def bact():
     window.destroy()
     window1 = tk.Tk()
@@ -123,6 +124,7 @@ def analysis():
     from tflearn.layers.core import input_data, dropout, fully_connected
     from tflearn.layers.estimator import regression
     import tensorflow as tf
+
     tf.compat.v1.reset_default_graph()
 
     convnet = input_data(shape=[None, IMG_SIZE, IMG_SIZE, 3], name='input')
@@ -226,9 +228,9 @@ def openphoto():
     for fileName in fileList:
         os.remove(dirPath + "/" + fileName)
     # C:/Users/sagpa/Downloads/images is the location of the image which you want to test..... you can change it according to the image location you have  
-    fileName = askopenfilename(initialdir='D:/', title='Select image for analysis ',
+    fileName = askopenfilename(initialdir="../PlantDiseaseDetection", title='Select image for analysis ',
                            filetypes=[('image files', '.jpg')])
-    dst = "D:/Desktop/deep/PlantDiseaseDetection-master/PlantDiseaseDetection-master/testpicture"
+    dst = "../PlantDiseaseDetection/testpicture"
     shutil.copy(fileName, dst)
     load = Image.open(fileName)
     render = ImageTk.PhotoImage(load)
