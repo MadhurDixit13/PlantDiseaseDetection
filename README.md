@@ -1,4 +1,4 @@
-# PlantDiseaseDetection
+# Plant Disease Detection
 
 It is a plant disease detection project...
 cnn.py is used to train and test the model
@@ -10,3 +10,5 @@ PACKAGE REQUIREMENTS
   TensorFlow
   openCv
   matplotlib
+  
+
