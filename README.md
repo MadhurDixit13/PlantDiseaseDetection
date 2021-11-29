@@ -1,21 +1,21 @@
-# Plant Disease Detection
+## Plant Disease Detection
 
 It is a plant disease detection project...
 cnn.py is used to train and test the model
 ui.py is used for finding the disease in the given leaf by the user
 
-PACKAGE REQUIREMENTS
-  numpy (pip install numpy)
-  tqdm (pip install tqdm)
-  TensorFlow
-  openCv
-  matplotlib
+# PACKAGE REQUIREMENTS
+ - numpy (pip install numpy)
+ - tqdm (pip install tqdm)
+ - TensorFlow
+ - openCv
+ - matplotlib
   
-The model successfully recognizes three types of plant leaf diseases:
-Bacterial spot
-Yellow leaf curl virus
-Late Blight 
-It is also able to give out some remedies regarding the detected disease.
+# The model successfully recognizes three types of plant leaf diseases:
+- Bacterial spot
+- Yellow leaf curl virus
+- Late Blight 
+# It is also able to give out some remedies regarding the detected disease.
 
 We used tkinter to deploy our model. Following are some images of the process to use the model.
 
