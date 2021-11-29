@@ -10,10 +10,10 @@ window = tk.Tk()
 window.title("Dr. Plant")
 
 window.geometry("500x510")
-window.configure(background="lightgreen")
+window.configure(background="#c4dbff")
 
-title = tk.Label(text="Click below to choose picture for testing disease....", background = "lightgreen", fg="Brown", font=("", 15))
-title.grid()
+title = tk.Label(text="Select picture for testing disease....", background = "#c4dbff", fg="Brown", font=("", 15))
+title.grid(column=2, row=1)
 
 def bact():
     window.destroy()
@@ -22,16 +22,16 @@ def bact():
     window1.title("Dr. Plant")
 
     window1.geometry("500x510")
-    window1.configure(background="lightgreen")
+    window1.configure(background="#c4dbff")
 
     def exit():
         window1.destroy()
     rem = "The remedies for Bacterial Spot are:\n\n "
-    remedies = tk.Label(text=rem, background="lightgreen",
+    remedies = tk.Label(text=rem, background="#c4dbff",
                       fg="Brown", font=("", 15))
     remedies.grid(column=0, row=7, padx=10, pady=10)
     rem1 = " Discard or destroy any affected plants. \n  Do not compost them. \n  Rotate yoour tomato plants yearly to prevent re-infection next year. \n Use copper fungicites"
-    remedies1 = tk.Label(text=rem1, background="lightgreen",
+    remedies1 = tk.Label(text=rem1, background="#c4dbff",
                         fg="Black", font=("", 12))
     remedies1.grid(column=0, row=8, padx=10, pady=10)
 
@@ -48,16 +48,16 @@ def vir():
     window1.title("Dr. Plant")
 
     window1.geometry("650x510")
-    window1.configure(background="lightgreen")
+    window1.configure(background="#c4dbff")
 
     def exit():
         window1.destroy()
     rem = "The remedies for Yellow leaf curl virus are: "
-    remedies = tk.Label(text=rem, background="lightgreen",
+    remedies = tk.Label(text=rem, background="#c4dbff",
                       fg="Brown", font=("", 15))
     remedies.grid(column=0, row=7, padx=10, pady=10)
     rem1 = " Monitor the field, handpick diseased plants and bury them. \n  Use sticky yellow plastic traps. \n  Spray insecticides such as organophosphates, carbametes during the seedliing stage. \n Use copper fungicites"
-    remedies1 = tk.Label(text=rem1, background="lightgreen",
+    remedies1 = tk.Label(text=rem1, background="#c4dbff",
                          fg="Black", font=("", 12))
     remedies1.grid(column=0, row=8, padx=10, pady=10)
 
@@ -73,17 +73,17 @@ def latebl():
     window1.title("Dr. Plant")
 
     window1.geometry("520x510")
-    window1.configure(background="lightgreen")
+    window1.configure(background="#c4dbff")
 
     def exit():
         window1.destroy()
     rem = "The remedies for Late Blight are: "
-    remedies = tk.Label(text=rem, background="lightgreen",
+    remedies = tk.Label(text=rem, background="#c4dbff",
                       fg="Brown", font=("", 15))
     remedies.grid(column=0, row=7, padx=10, pady=10)
 
     rem1 = " Monitor the field, remove and destroy infected leaves. \n  Treat organically with copper spray. \n  Use chemical fungicides,the best of which for tomatoes is chlorothalonil."
-    remedies1 = tk.Label(text=rem1, background="lightgreen",
+    remedies1 = tk.Label(text=rem1, background="#c4dbff",
                          fg="Black", font=("", 12))
     remedies1.grid(column=0, row=8, padx=10, pady=10)
 
@@ -185,38 +185,38 @@ def analysis():
         else:
             status = "UNHEALTHY"
 
-        message = tk.Label(text='Status: '+status, background="lightgreen",
+        message = tk.Label(text='Status: '+status, background="#c4dbff",
                            fg="Brown", font=("", 15))
         message.grid(column=0, row=3, padx=10, pady=10)
         if str_label == 'bacterial':
             diseasename = "Bacterial Spot "
-            disease = tk.Label(text='Disease Name: ' + diseasename, background="lightgreen",
+            disease = tk.Label(text='Disease Name: ' + diseasename, background="#c4dbff",
                                fg="Black", font=("", 15))
             disease.grid(column=0, row=4, padx=10, pady=10)
-            r = tk.Label(text='Click below for remedies...', background="lightgreen", fg="Brown", font=("", 15))
+            r = tk.Label(text='Click below for remedies...', background="#c4dbff", fg="Brown", font=("", 15))
             r.grid(column=0, row=5, padx=10, pady=10)
             button3 = tk.Button(text="Remedies", command=bact)
             button3.grid(column=0, row=6, padx=10, pady=10)
         elif str_label == 'viral':
             diseasename = "Yellow leaf curl virus "
-            disease = tk.Label(text='Disease Name: ' + diseasename, background="lightgreen",
+            disease = tk.Label(text='Disease Name: ' + diseasename, background="#c4dbff",
                                fg="Black", font=("", 15))
             disease.grid(column=0, row=4, padx=10, pady=10)
-            r = tk.Label(text='Click below for remedies...', background="lightgreen", fg="Brown", font=("", 15))
+            r = tk.Label(text='Click below for remedies...', background="#c4dbff", fg="Brown", font=("", 15))
             r.grid(column=0, row=5, padx=10, pady=10)
             button3 = tk.Button(text="Remedies", command=vir)
             button3.grid(column=0, row=6, padx=10, pady=10)
         elif str_label == 'lateblight':
             diseasename = "Late Blight "
-            disease = tk.Label(text='Disease Name: ' + diseasename, background="lightgreen",
+            disease = tk.Label(text='Disease Name: ' + diseasename, background="#c4dbff",
                                fg="Black", font=("", 15))
             disease.grid(column=0, row=4, padx=10, pady=10)
-            r = tk.Label(text='Click below for remedies...', background="lightgreen", fg="Brown", font=("", 15))
+            r = tk.Label(text='Click below for remedies...', background="#c4dbff", fg="Brown", font=("", 15))
             r.grid(column=0, row=5, padx=10, pady=10)
             button3 = tk.Button(text="Remedies", command=latebl)
             button3.grid(column=0, row=6, padx=10, pady=10)
         else:
-            r = tk.Label(text='Plant is healthy', background="lightgreen", fg="Black",
+            r = tk.Label(text='Plant is healthy', background="#c4dbff", fg="Black",
                          font=("", 15))
             r.grid(column=0, row=4, padx=10, pady=10)
             button = tk.Button(text="Exit", command=exit)
@@ -240,8 +240,10 @@ def openphoto():
     img.grid(column=0, row=1, padx=10, pady = 10)
     title.destroy()
     button1.destroy()
-    button2 = tk.Button(text="Analyse Image", command=analysis)
+    button2 = tk.Button(text="Analyse Image", command = analysis)
     button2.grid(column=0, row=2, padx=10, pady = 10)
+
+
 button1 = tk.Button(text="Get Photo", command = openphoto)
 button1.grid(column=0, row=1, padx=10, pady = 10)
 
