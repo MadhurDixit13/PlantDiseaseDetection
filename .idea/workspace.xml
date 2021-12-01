@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="907b8055-dd4e-4a76-9cf6-1959b5b7a796" name="Default" comment="step explanation images added">
+    <list default="true" id="907b8055-dd4e-4a76-9cf6-1959b5b7a796" name="Default" comment="cnn changed: tf.compat.v1.reset_default_graph()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testpicture/7b366d8c-21bf-4b61-8bbc-0eeb5cd410ba___YLCV_GCREC 2727.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/train_data.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/verify_data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/verify_data.npy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +81,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.cnn">
+  <component name="RunManager" selected="Python.ui">
     <configuration name="cnn" type="PythonConfigurationType" factoryName="Python">
       <module name="plant_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638172259281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cnn changed: tf.compat.v1.reset_default_graph()">
+      <created>1638383797268</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638383797268</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -236,7 +240,8 @@
     <MESSAGE value="File path customized" />
     <MESSAGE value="Background changed and position of text changes" />
     <MESSAGE value="step explanation images added" />
-    <option name="LAST_COMMIT_MESSAGE" value="step explanation images added" />
+    <MESSAGE value="cnn changed: tf.compat.v1.reset_default_graph()" />
+    <option name="LAST_COMMIT_MESSAGE" value="cnn changed: tf.compat.v1.reset_default_graph()" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/verify.py">

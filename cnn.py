@@ -96,6 +96,7 @@ test_y = [i[1] for i in test]
 model.fit({'input': X}, {'targets': Y}, n_epoch=8, validation_set=({'input': test_x}, {'targets': test_y}),
     snapshot_step=40, show_metric=True, run_id=MODEL_NAME)
 
+
 model.save(MODEL_NAME)
 
 
