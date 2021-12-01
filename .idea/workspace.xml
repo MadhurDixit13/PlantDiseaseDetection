@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="907b8055-dd4e-4a76-9cf6-1959b5b7a796" name="Default" comment="Background changed and position of text changes">
+    <list default="true" id="907b8055-dd4e-4a76-9cf6-1959b5b7a796" name="Default" comment="step explanation images added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testpicture/7b366d8c-21bf-4b61-8bbc-0eeb5cd410ba___YLCV_GCREC 2727.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/train_data.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify_data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/verify_data.npy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +84,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.ui">
-    <configuration name="cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cnn">
+    <configuration name="cnn" type="PythonConfigurationType" factoryName="Python">
       <module name="plant_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\sagpa\venv\Scripts\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn.py" />
@@ -101,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ui" type="PythonConfigurationType" factoryName="Python">
       <module name="plant_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,13 +150,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.cnn" />
-      <item itemvalue="Python.verify" />
       <item itemvalue="Python.ui" />
+      <item itemvalue="Python.verify" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ui" />
-        <item itemvalue="Python.cnn" />
         <item itemvalue="Python.verify" />
       </list>
     </recent_temporary>
@@ -182,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638171742150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="step explanation images added">
+      <created>1638172259281</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638172259281</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -225,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="File path customized" />
     <MESSAGE value="Background changed and position of text changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Background changed and position of text changes" />
+    <MESSAGE value="step explanation images added" />
+    <option name="LAST_COMMIT_MESSAGE" value="step explanation images added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/verify.py">

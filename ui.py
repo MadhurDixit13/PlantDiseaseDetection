@@ -100,7 +100,7 @@ def analysis():
     from random import shuffle  # mixing up or currently ordered data that might lead our network astray in training.
     from tqdm import \
         tqdm  # a nice pretty percentage bar for tasks. Thanks to viewer Daniel BA1/4hler for this suggestion
-    verify_dir = 'testpicture'
+    verify_dir = './testpicture'
     IMG_SIZE = 50
     LR = 1e-3
     MODEL_NAME = 'healthyvsunhealthy-{}-{}.model'.format(LR, '2conv-basic')

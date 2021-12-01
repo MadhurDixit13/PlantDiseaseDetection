@@ -53,7 +53,7 @@ from tflearn.layers.conv import conv_2d, max_pool_2d
 from tflearn.layers.core import input_data, dropout, fully_connected
 from tflearn.layers.estimator import regression
 import tensorflow as tf
-tf.reset_default_graph()
+tf.compat.v1.reset_default_graph()
 
 convnet = input_data(shape=[None, IMG_SIZE, IMG_SIZE, 3], name='input')
 
