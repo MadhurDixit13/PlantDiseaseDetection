@@ -31,7 +31,7 @@ Thus, the user selected image can be seen and when pressed on â€œAnalyse Imageâ€
 
 ![step3](./images/step3.PNG?raw=true "Title")
 
-We get the status of the health of the leaf and the disease name from which it's infected, we can further check for remedies.
+We get the status of the health of the leaf and the disease name from which it's infected, we can further check for remedies. 
 
 ![step4](./images/step4.PNG?raw=true "Title")
 
