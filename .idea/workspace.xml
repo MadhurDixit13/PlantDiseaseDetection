@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="907b8055-dd4e-4a76-9cf6-1959b5b7a796" name="Default" comment="cnn changed: tf.compat.v1.reset_default_graph()">
+    <list default="true" id="907b8055-dd4e-4a76-9cf6-1959b5b7a796" name="Default" comment="model loaded">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/cnn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/verify_data.npy" beforeDir="false" afterPath="$PROJECT_DIR$/verify_data.npy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.ui">
@@ -196,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638383797268</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="model loaded">
+      <created>1638384334191</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638384334191</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -241,7 +247,8 @@
     <MESSAGE value="Background changed and position of text changes" />
     <MESSAGE value="step explanation images added" />
     <MESSAGE value="cnn changed: tf.compat.v1.reset_default_graph()" />
-    <option name="LAST_COMMIT_MESSAGE" value="cnn changed: tf.compat.v1.reset_default_graph()" />
+    <MESSAGE value="model loaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="model loaded" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/verify.py">
